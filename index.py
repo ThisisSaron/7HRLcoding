@@ -10,6 +10,8 @@ class Parent:
         self.x2 = x2
         self.y2 = y2
         self.rect = pygame.Rect(self.x1,self.y1,self.x2,self.y2)
+    def appear(self):
+        pass
 
 class Player(Parent):
     def __init__(self, x1,y1,x2,y2,level):
